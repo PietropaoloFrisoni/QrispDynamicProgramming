@@ -16,8 +16,8 @@ Click a badge below to open a notebook directly in Google Colab (no local setup 
 
 | Notebook | Open in Colab |
 |---|---|
-| `JaspTracing.ipynb`: Jasp internals and the execution model (jaspr, tracing, primitives), and branching on a measurement result | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/iqm-qrisp-school-oct2026/blob/main/Session_3_Dynamic_Programming/JaspTracing.ipynb) |
-| `JaspJIT.ipynb`: JIT compilation in JAX and qrisp, dynamic loops, resource estimation, boolean simulation, real-time programs (teleportation, repeat-until-success, dynamic sizes), several evaluation modes on one error correction example, and Catalyst | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/iqm-qrisp-school-oct2026/blob/main/Session_3_Dynamic_Programming/JaspJIT.ipynb) |
+| `JaspTracing.ipynb`: Jasp internals and the execution model (jaspr, tracing, primitives) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/iqm-qrisp-school-oct2026/blob/main/Session_3_Dynamic_Programming/JaspTracing.ipynb) |
+| `JaspJIT.ipynb`: JIT compilation in JAX and qrisp, dynamic loops, resource estimation, boolean simulation, real-time programs (branching on a measurement result, repeat-until-success), several evaluation modes on one error correction example, and Catalyst | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/iqm-qrisp-school-oct2026/blob/main/Session_3_Dynamic_Programming/JaspJIT.ipynb) |
 
 ## Bonus Material (optional)
 
