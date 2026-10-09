@@ -8,16 +8,16 @@
 The session has two parts of about 45 minutes each, with a short break in between:
 
 1. Slides, then `JaspTracing.ipynb`
-2. `JaspJIT.ipynb`
+2. `JaspExecution.ipynb`
 
-Click a badge below to open a notebook directly in Google Colab (no local setup required). If you run the notebooks locally, the evaluation-modes section of `JaspJIT.ipynb` also needs Stim (`pip install stim`).
+Click a badge below to open a notebook directly in Google Colab (no local setup required). If you run the notebooks locally, the evaluation-modes section of `JaspExecution.ipynb` also needs Stim (`pip install stim`).
 
 ## Main Notebooks
 
 | Notebook | Open in Colab |
 |---|---|
-| `JaspTracing.ipynb`: Jasp internals and the execution model (jaspr, tracing, primitives) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/iqm-qrisp-school-oct2026/blob/main/Session_3_Dynamic_Programming/JaspTracing.ipynb) |
-| `JaspJIT.ipynb`: JIT compilation in JAX and qrisp, dynamic loops, resource estimation, boolean simulation, real-time programs (branching on a measurement result, repeat-until-success), several evaluation modes on one error correction example, and Catalyst | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/iqm-qrisp-school-oct2026/blob/main/Session_3_Dynamic_Programming/JaspJIT.ipynb) |
+| `JaspTracing.ipynb`: Jasp internals and the execution model (jaspr, tracing, primitives), dynamic loops with `jrange`, and branching on a measurement result | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/iqm-qrisp-school-oct2026/blob/main/Session_3_Dynamic_Programming/JaspTracing.ipynb) |
+| `JaspExecution.ipynb`: JIT compilation in JAX and qrisp, resource estimation, boolean simulation, the default simulator, repeat-until-success, compilation to QIR, and several evaluation modes on one error correction example | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/iqm-qrisp-school-oct2026/blob/main/Session_3_Dynamic_Programming/JaspExecution.ipynb) |
 
 ## Bonus Material (optional)
 
