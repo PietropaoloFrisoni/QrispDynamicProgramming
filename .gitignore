@@ -219,3 +219,6 @@ __marimo__/
 
 # Lecture slides material (kept locally, not in the repo)
 SlidesIQMQrispSchoolOct2026/
+
+# Upload-ready notebook copies for Colab (generated locally)
+colab_upload/
