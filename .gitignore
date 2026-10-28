@@ -217,8 +217,5 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Lecture slides material (kept locally, not in the repo)
-SlidesIQMQrispSchoolOct2026/
-
-# Upload-ready notebook copies for Colab (generated locally)
-colab_upload/
+# Workshop slides (kept locally, not in the repo)
+slides/

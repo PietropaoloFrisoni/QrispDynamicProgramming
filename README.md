@@ -1,43 +1,29 @@
-# Qrisp School
+# Dynamic Programming in Qrisp
 
-**12-13 October 2026, IQM Munich office**
+Workshop at the **Eclipse Qrisp Community Day**, 29 October 2026.
 
-Two days of hands-on introduction to [Qrisp](https://github.com/eclipse-qrisp/Qrisp), our high-level quantum programming framework, held right before the Munich Quantum Software Forum.
+How Qrisp's Jasp module turns quantum programs into JAX programs, and the different ways to execute them.
 
-Four sessions take you from the programming model to block-encoding-based algorithms. Each session is a lecture followed by an interactive coding part.
+## Notebooks
 
-This repository only contains the material for [Session 3: Dynamic Programming](Session_3_Dynamic_Programming/). The material of the whole school is collected on an internal Jira page; the other sessions are listed below for reference.
+| Notebook | |
+|---|---|
+| `JaspTracing.ipynb`: tracing in JAX and Jasp, dynamic loops, branching on measurements | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/qrisp-community-day-2026/blob/main/JaspTracing.ipynb) |
+| `JaspExecution.ipynb`: `jax.jit`, resource estimation, boolean simulation, simulation, repeat-until-success, compilation to QIR | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/qrisp-community-day-2026/blob/main/JaspExecution.ipynb) |
 
-## Schedule
+**Bonus (optional)**
 
-| Time | Mon, 12 Oct | Tue, 13 Oct |
-|---|---|---|
-| 9:30-12:00 | 1. Qrisp Basics | [3. Dynamic Programming](Session_3_Dynamic_Programming/) |
-| 13:00-15:30 | 2. Operators | 4. Block Encodings |
+| Notebook | |
+|---|---|
+| `BonusMaterial/PrimitivesInJax.ipynb`: a custom JAX primitive from scratch | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/qrisp-community-day-2026/blob/main/BonusMaterial/PrimitivesInJax.ipynb) |
+| `BonusMaterial/XLABackend.ipynb`: how XLA compiles a jitted program | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/qrisp-community-day-2026/blob/main/BonusMaterial/XLABackend.ipynb) |
+| `BonusMaterial/StableHLOExport.ipynb`: inspecting and exporting StableHLO | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PietropaoloFrisoni/qrisp-community-day-2026/blob/main/BonusMaterial/StableHLOExport.ipynb) |
 
-## Sessions
+## Setup
 
-### 1. Qrisp Basics (Monday morning)
+Open a notebook in Colab with its badge, or run it locally: each notebook installs what it needs in its first cells.
 
-- **Lecture:** The general programming model and how it differs from Qiskit. QuantumVariables and quantum types, quantum environments, memory management.
-- **Tutorial:** Small programming exercises that introduce each of these on concrete examples, plus transpilation passes, the PassManager, and pulse-level access.
-
-### 2. Operators (Monday afternoon)
-
-- **Lecture:** The operators module in Qrisp: Pauli strings, ladder operators, fermionic operators, how ladder operators are implemented, Hamiltonian simulation, and expectation values.
-- **Tutorial:** Load chemistry data from PySCF and simulate molecules; construct entanglement witnesses and measure them on hardware.
-
-### 3. Dynamic Programming (Tuesday morning)
-
-- **Lecture:** Why we need dynamic programs at all: scalability and real-time computation for QEC. Introduction to JAX and Just-in-time compilation, and how it embeds into Qrisp with the Jasp module (dynamic control flow, dynamic variables, and compilation pipeline).
-- **Tutorial:** Write dynamic programs yourself in Qrisp with dynamic mode leveraging JAX. Evaluation modes: resource estimation, boolean simulation, and other Jasp-related features for quantum programming.
-
-### 4. Block Encodings (Tuesday afternoon)
-
-- **Lecture:** The mathematical foundations: what is a block encoding, and why is it useful? Which constructions exist, and which algorithms operate on block encodings.
-- **Tutorial:** LCU, qubitization and Chebyshev in code, along the lines of the examples on the Qrisp website.
-
-## Resources
+## Links
 
 - Qrisp documentation: https://www.qrisp.eu/
 - Qrisp on GitHub: https://github.com/eclipse-qrisp/Qrisp
